@@ -1,27 +1,80 @@
-.deforestation {color: #90ABFF;
-        border: 80px;}
 div {
   border: solid 5px;
   justify-content: center;
   justify-content: space-between;
+  text-align: center;
+  background-color: #999970;
+  margin-top: 75px;
+  margin-bottom: 75px;
 }
 
-.ozone {color: #90ABFF;
-        border: 80px;}
+.milkyway {color: black;
+        border: 80px;
+        background-color: #455C82}
 
-.smog {color: #90ABFF;
-        border: 80px;}
+.natpark {color: black;
+        border: 80px;
+        background-color: #A86F82}
 
-.watercontamination {color: #90ABFF;
-        border: 80px;}
+.flowers {color: black;
+        border: 80px;
+        background-color: #683B6B}
 
-.drought {color: #90ABFF;
-        border: 80px;}
+.animals {color: black;
+        border: 80px;
+        background-color: #633107}
 
-.naturaldisasters {color: #90ABFF;
-        border: 80px;}
-
-img {width: 250px;
-    height: 175px;
+img {width: 245px;
+    height: 200px;
     object-fit: cover;
-    border-radius: 1000px}
+    border-radius: 1000px;
+    border: solid 4px;
+    border-color: #DEEAFF;}
+
+body {background-image: url(https://www.mystudycorner.net/wp-content/uploads/2016/03/Earth-Wallpaper-nd5CD.jpg);
+    }
+
+* {
+    margin: 20px;
+    padding: 5px;
+    font-family: 'Josefin Slab', serif;
+    background-attachment: fixed;
+  }
+
+  h1 {
+    border: solid 5px black;
+    text-align: center;
+    background-color: #999970;
+    color: #FFF9DE;
+    }
+
+h2 {
+  border: solid 5px;
+  text-align: center;
+  background-color: #DEEAFF;
+  }
+
+  #myBtn {
+  display: block;
+  position: sticky;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: black;
+  outline: none;
+  background-color: #B84F46;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 1000px;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+
+  @media screen and (max-width: 500px) {
+    *
+  }
