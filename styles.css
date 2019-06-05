@@ -1,0 +1,27 @@
+.deforestation {color: #90ABFF;
+        border: 80px;}
+div {
+  border: solid 5px;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.ozone {color: #90ABFF;
+        border: 80px;}
+
+.smog {color: #90ABFF;
+        border: 80px;}
+
+.watercontamination {color: #90ABFF;
+        border: 80px;}
+
+.drought {color: #90ABFF;
+        border: 80px;}
+
+.naturaldisasters {color: #90ABFF;
+        border: 80px;}
+
+img {width: 250px;
+    height: 175px;
+    object-fit: cover;
+    border-radius: 1000px}
