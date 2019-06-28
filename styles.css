@@ -4,8 +4,8 @@ div {
   justify-content: space-between;
   text-align: center;
   background-color: #999970;
-  margin-top: 75px;
-  margin-bottom: 75px;
+  margin-top: 65px;
+  margin-bottom: 65px;
 }
 
 .milkyway {color: black;
@@ -24,8 +24,8 @@ div {
         border: 80px;
         background-color: #633107}
 
-img {width: 245px;
-    height: 200px;
+img {width: 223px;
+    height: 178px;
     object-fit: cover;
     border-radius: 1000px;
     border: solid 4px;
@@ -54,26 +54,61 @@ h2 {
   background-color: #DEEAFF;
   }
 
-  #myBtn {
-  display: block;
-  position: sticky;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  border: black;
-  outline: none;
-  background-color: #B84F46;
-  color: white;
+  h3 {
+    font-size: 20px;
+  }
+
+  .footer {
+    border: solid 5px black;
+    text-align: center;
+    background-color: #999970;
+    color: #FFF9DE;
+    justify-content: center;
+    margin: 0px;
+    padding:0px;
+    width: 290px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+#button {
+  display: inline-block;
+  background-color: #76001B;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 10000px;
+  position: fixed;
+  bottom: 30px;
+  right: -15px;
+  transition: background-color .3s,
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
   cursor: pointer;
-  padding: 15px;
-  border-radius: 1000px;
-  font-size: 18px;
+  background-color: #2E0010;
 }
-
-#myBtn:hover {
-  background-color: #555;
+#button:active {
+  background-color: #2E0010;
 }
-
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
 
   @media screen and (max-width: 500px) {
     *
